@@ -9,6 +9,9 @@ import Weather from "../conditionalRendering/Weather";
 import UserStatus from "../conditionalRendering/UserStatus";
 import InlineStyle from "../styles/InlineStyle";
 import ExternalCss from "../styles/ExternalCss";
+import ProfileCard from "../profileCard/ProfileCard";
+import Buttons from "../buttons/Buttons";
+import UseStates from "../hooks/useStates/UseStates";
 
 const Main = () => {
 
@@ -19,6 +22,11 @@ const Main = () => {
 
     return (
         <main>
+            <UseStates/>
+            <Buttons/>
+            <ProfileCard/>
+            <hr/>
+
             <ExternalCss/>
             <InlineStyle/>
 
