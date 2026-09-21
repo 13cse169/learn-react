@@ -9,3 +9,33 @@ const [data, changeData] = useState()
 
 
 {/* sdsds */}
+
+1. What are Hooks?
+
+Hooks are special React functions that let functional components use React features such as state, effects, context, refs, etc.
+
+Before Hooks, state was mainly handled using class components. With Hooks, we can do it directly inside function components.
+
+Some common Hooks:
+
+useState     → state
+useEffect    → side effects
+useContext   → context
+useRef       → references / DOM elements
+useMemo      → memoization
+useCallback  → memoized functions
+
+2. useState
+
+useState is the most important Hook when starting React.
+
+It allows a component to store and update data.
+
+
+const [count, setCount] = useState(0);
+
+        state      setter
+          ↓          ↓
+const [ count,   setCount ] = useState(0);
+                              ↑
+                         initial value

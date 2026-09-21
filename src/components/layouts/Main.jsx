@@ -12,6 +12,10 @@ import ExternalCss from "../styles/ExternalCss";
 import ProfileCard from "../profileCard/ProfileCard";
 import Buttons from "../buttons/Buttons";
 import UseStates from "../hooks/useStates/UseStates";
+import CopyInpyt from "../portal/CopyInpyt";
+import UseEffects from "../hooks/useEffects/UseEffects";
+import PropDrilling from "../propdrilling/PropDrilling";
+import IndexUserContext from "../propdrilling/exercise/IndexUserContext";
 
 const Main = () => {
 
@@ -22,6 +26,15 @@ const Main = () => {
 
     return (
         <main>
+            <IndexUserContext/>
+            <hr/>
+            <PropDrilling/>
+            <hr/>
+            <UseEffects/>
+            <hr/>
+            <CopyInpyt/>
+            <hr/>
+
             <UseStates/>
             <Buttons/>
             <ProfileCard/>
