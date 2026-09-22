@@ -18,6 +18,7 @@ import PropDrilling from "../propdrilling/PropDrilling";
 import IndexUserContext from "../propdrilling/exercise/IndexUserContext";
 import IndexUseReducer from "../hooks/useReducers/IndexUseReducer";
 import IndexUseRef from "../hooks/useRefs/IndexUseRef";
+import IndexCustomHooks from "../hooks/custom/IndexCustomHooks";
 
 const Main = () => {
 
@@ -28,6 +29,8 @@ const Main = () => {
 
     return (
         <main>
+            <IndexCustomHooks/>
+            <hr/>
             <IndexUseRef/>
             <hr/>
             <IndexUseReducer/>
