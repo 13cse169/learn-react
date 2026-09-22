@@ -16,6 +16,8 @@ import CopyInpyt from "../portal/CopyInpyt";
 import UseEffects from "../hooks/useEffects/UseEffects";
 import PropDrilling from "../propdrilling/PropDrilling";
 import IndexUserContext from "../propdrilling/exercise/IndexUserContext";
+import IndexUseReducer from "../hooks/useReducers/IndexUseReducer";
+import IndexUseRef from "../hooks/useRefs/IndexUseRef";
 
 const Main = () => {
 
@@ -26,6 +28,10 @@ const Main = () => {
 
     return (
         <main>
+            <IndexUseRef/>
+            <hr/>
+            <IndexUseReducer/>
+            <hr/>
             <IndexUserContext/>
             <hr/>
             <PropDrilling/>

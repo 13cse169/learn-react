@@ -1,0 +1,52 @@
+React Basics
+├── Components                 ✅
+├── JSX                        ✅
+├── Props                      ✅
+├── Events                     ✅
+├── Conditional rendering      ✅
+├── Lists & keys               ✅
+│
+React Hooks
+├── useState                   ✅
+├── useEffect                  ✅
+├── useContext                 ✅
+├── useReducer                 🔄 Learning now
+├── useRef                     ⬜
+├── useMemo                    ⬜
+├── useCallback                ⬜
+└── Custom Hooks               🔄 Started
+│
+State Management
+├── Prop drilling              ✅
+├── Context API                ✅
+├── Context + useReducer       🔄
+└── External state libraries   ⬜
+│
+Routing
+├── React Router               ⬜
+├── Dynamic routes             ⬜
+├── Nested routes              ⬜
+└── Protected routes           ⬜
+│
+Forms
+├── Controlled components      ⬜
+├── Form validation            ⬜
+└── Complex forms              ⬜
+│
+API
+├── fetch                      🔄
+├── GET                        🔄
+├── POST                       ⬜
+├── PUT/PATCH                  ⬜
+├── DELETE                     ⬜
+├── Loading state              ⬜
+└── Error handling             ⬜
+│
+Advanced React
+├── useMemo                    ⬜
+├── useCallback                ⬜
+├── React.memo                ⬜
+├── useRef                     ⬜
+├── Performance optimization  ⬜
+├── Error boundaries           ⬜
+└── Lazy loading               ⬜
